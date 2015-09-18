@@ -1,0 +1,28 @@
+{
+  "name": "reactfundamental",
+  "version": "0.0.1",
+  "description": "code for reactfundamental course on pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v3rt1go/reactfundamental.git"
+  },
+  "author": "Alex Griciuc <agriciuc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v3rt1go/reactfundamental/issues"
+  },
+  "homepage": "https://github.com/v3rt1go/reactfundamental",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "node-static": "^0.7.7"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "gruntify-eslint": "^1.0.1"
+  }
+}
