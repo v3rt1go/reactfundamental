@@ -1,0 +1,9 @@
+{
+  "name": "boilerplate",
+  "script": "index.js",
+  "cwd": "/home/agriciuc/www/apps/boilerplate/",
+  "exec_interpreter" : "/home/agriciuc/.nvm/versions/node/v4.1.0/bin/node",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

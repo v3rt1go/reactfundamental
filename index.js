@@ -3,13 +3,13 @@ var static = require('node-static');
 //
 // Create a node-static server instance to serve the './public' folder
 //
-var file = new static.Server('./public');
+var file = new static.Server('./public'); // ~/repos/boilerplate/hooks/public
 
 require('http').createServer(function(request, response) {
   request.addListener('end', function() {
-    //
-    // Serve files!
-    //
     file.serve(request, response);
   }).resume();
-}).listen(8080);
+  // response.write("Foo");
+  // response.end();
+}).listen(8081);
+console.log(process.version);

@@ -10,7 +10,7 @@
   },
   "env": {
     "node":     true,
-    "browser":  false,
+    "browser":  true,
   },
   "plugins": ["filenames"],
   "extends": ["eslint:recommended"],
